@@ -407,7 +407,7 @@ header .icons a:hover {
   color: var(--light-color);
 }
 .about-us .about-learn,
-.today-food-section button {
+.today-food-section button ,.modal-orader{
   border: none;
   color: white;
   background-color: var(--black);

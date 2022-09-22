@@ -3,15 +3,15 @@ const meuns = [{
         title: "buttermilk pancakes",
         category: "breakfast",
         price: 15.99,
-        img: "../images/item-1.jpeg",
+        img: "https://i.ibb.co/hdL0jsj/item-1.jpg",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
-    {
+   {
         id: 2,
         title: "diner double",
         category: "lunch",
         price: 13.99,
-        img: "../images/item-2.jpeg",
+        img: "https://i.ibb.co/SszN0qg/item-2.jpg",
         desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
@@ -19,7 +19,7 @@ const meuns = [{
         title: "godzilla milkshake",
         category: "shakes",
         price: 6.99,
-        img: "../images/item-3.jpeg",
+        img: "https://i.ibb.co/Lgqkh6q/item-3.jpg",
         desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
@@ -27,7 +27,7 @@ const meuns = [{
         title: "country delight",
         category: "breakfast",
         price: 20.99,
-        img: "../images/item-4.jpeg",
+        img: "https://i.ibb.co/Ry2Tqv5/item-4.jpg",
         desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
@@ -35,7 +35,7 @@ const meuns = [{
         title: "egg attack",
         category: "lunch",
         price: 22.99,
-        img: "../images/item-5.jpeg",
+        img: "https://i.ibb.co/cLFHMZJ/item-5.jpg",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -43,7 +43,7 @@ const meuns = [{
         title: "oreo dream",
         category: "shakes",
         price: 18.99,
-        img: "../images/item-6.jpeg",
+        img: "https://i.ibb.co/MGQtRGj/item-6.jpg",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -51,7 +51,7 @@ const meuns = [{
         title: "bacon overflow",
         category: "breakfast",
         price: 8.99,
-        img: "../images/item-7.jpeg",
+        img: "https://i.ibb.co/PgBSGPh/item-7.jpg",
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -59,7 +59,7 @@ const meuns = [{
         title: "american classic",
         category: "lunch",
         price: 12.99,
-        img: "../images/item-8.jpeg",
+        img: "https://i.ibb.co/KhCpB56/item-8.jpg",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -67,7 +67,7 @@ const meuns = [{
         title: "quarantine buddy",
         category: "shakes",
         price: 16.99,
-        img: "../images/item-9.jpeg",
+        img: "https://i.ibb.co/PgFmWNR/item-9.jpg",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
 ];
@@ -176,6 +176,7 @@ function mealRecipeModal(meal) {
             <h3>Instructions:</h3>
             <p>${meal.strInstructions}</p>
         </div>
+        <button class='modal-orader'>Orader Now</button>
         
         
     `;
