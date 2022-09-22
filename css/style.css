@@ -242,7 +242,7 @@ header .icons a:hover{
     -o-transition: all 0.4s linear;
 }
 .recipe-btn:hover{
-    background: var(--green-dark);
+    background: var(--black);
     color: white;
 } 
 
